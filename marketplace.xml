@@ -11,7 +11,7 @@
     <img>http://www.webdetails.pt/ficheiros/mk.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
     <name>Pentaho Marketplace</name>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
     <author>Pentaho</author>
     <author_url>http://pentaho.com</author_url>
@@ -46,7 +46,7 @@
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
@@ -90,7 +90,7 @@
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
@@ -762,6 +762,28 @@
           <phase>2</phase>
         </development_stage>
       </version>
+
+      <version>
+        <branch>9.1.0.0</branch>
+        <version>9.1.0.0-101</version>
+
+        <name>9.1</name>
+        <description>9.1 Platform Release</description>
+
+        <package_url>
+          https://public.nexus.pentaho.org/repository/omni/org/pentaho/jpivot-plugin/9.1.0.0-101/jpivot-plugin-9.1.0.0-101.zip
+        </package_url>
+
+        <min_parent_version>9.1</min_parent_version>
+        <max_parent_version>9.1.99</max_parent_version>
+
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+
     </versions>
   </market_entry>
 
@@ -1444,6 +1466,24 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/8
       </version>
 
 
+   <version>
+        <branch>9.0.0.0</branch>
+        <version>9.0.0.0-9.0.0.0-423</version>
+        <name>9.0</name>
+        <package_url>
+https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/9.0.0.0-423/sparkl-9.0.0.0-423.zip
+        </package_url>
+        <description>9.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
 
     </versions>
     <screenshots>
@@ -1628,6 +1668,25 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <phase>3</phase>
         </development_stage>
       </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>9.0-20.10.19</version>
+        <name>Stable</name>
+        <package_url>
+			https://github.com/webdetails/cst/releases/download/v9.0-20.10.19/cst-9.0-20.10.19.zip
+        </package_url>
+        <description>Stable Release</description>
+        <build_id/>
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.1.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/ficheiros/cst/screenshots/cst-launcher.png</screenshot>
@@ -1717,11 +1776,11 @@ A landing tab can optionally be presented, which can be used to any of the prede
           https://ctools.pentaho.com/files/cte/cte-8.0-SNAPSHOT.zip
         </package_url>
         <description>
-          Build for Pentaho 7.x and 8.x
+          Build for Pentaho 7.x and 8.x and 9.0
         </description>
         <build_id>1</build_id>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version>8.4.99</max_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -2456,7 +2515,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <name>Stable (Community)</name>
         <package_url>http://downloads.meteorite.bi/saiku3/saiku-plugin-p7.1-3.90.zip</package_url>
         <description>3.90 release for the Saiku Plugin.</description>
-        <max_parent_version>8.1</max_parent_version>
+        <max_parent_version>9.9</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
           <development_stage>
           <lane>Community</lane>
@@ -6592,7 +6651,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/MySQL</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -6705,9 +6764,9 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>PDI 8.2 or later</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-post-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-post-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>8.2</min_parent_version>
       <development_stage>
         <lane>Customer</lane>
@@ -6716,9 +6775,9 @@ any translation issues or suggestions for improvement
       </version>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>Pre PDI 8.2</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-pre-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-pre-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>7.0</min_parent_version>
       <max_parent_version>8.1.99</max_parent_version>
       <development_stage>
@@ -6831,7 +6890,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin also contains the NuoDB JDBC Driver</description>
     <author>NuoDB</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/NuoDB</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/NuoDB</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7034,7 +7093,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the SSH2 Get and SSH2 Put job entries which were removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Job+Entries</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Job+Entries</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7069,7 +7128,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Aggregate Rows step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7104,7 +7163,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Get Previous Row Fields step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7139,7 +7198,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Streaming XML Input step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7174,7 +7233,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the XML Input step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7211,7 +7270,7 @@ any translation issues or suggestions for improvement
       using a COPY FROM STDIN statement through JDBC
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7251,12 +7310,12 @@ any translation issues or suggestions for improvement
       Please consult the documentation referenced below as well as the linked source code.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>4.4</version>
-        <package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
+        <package_url>https://pentaho-community.atlassian.net/wiki/download/attachments/23531011/DummyPlugin.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
         <development_stage>
 <lane>Community</lane>
@@ -7418,7 +7477,7 @@ With this plugin you can:
     </category>
     <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8450,7 +8509,7 @@ With this plugin you can:
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8491,7 +8550,7 @@ With this plugin you can:
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8639,7 +8698,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Apache+Kafka+Consumer</documentation_url>
     <description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
     <author_url>http://ruckuswireless.com</author_url>
@@ -8676,7 +8735,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Producer</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Apache+Kafka+Producer</documentation_url>
     <description>The plug-in allows sending binary messages over Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
     <author_url>http://ruckuswireless.com</author_url>
@@ -8804,7 +8863,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
     <description>The Kettle transformation plug-in allows decoding binary messages encoded using Google Protocol
       Buffers.
     </description>
@@ -8925,7 +8984,7 @@ With this plugin you can:
       result.
       This step detects identical, changed, added and removed rows.
     </description>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Compare+Fields</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Compare+Fields</documentation_url>
     <author>Matt Casters / Pentaho</author>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
@@ -9289,7 +9348,7 @@ With this plugin you can:
       Upsert.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -9834,6 +9893,15 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
     <author_url>http://funpdi.blogspot.com</author_url>
     <documentation_url>https://github.com/mattyb149/pdi-script-extension-points/wiki</documentation_url>
     <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.2</version>
+        <package_url>https://github.com/Therigy/pdi-script-extension-points/releases/download/v1.2.0/pdi-script-extension-points-1.2.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
       <version>
         <branch>Stable</branch>
         <version>1.1</version>
@@ -10464,105 +10532,6 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </version>
   </versions>
 </market_entry>
-<market_entry>
-  <id>SelfServiceBI</id>
-  <type>Platform</type>
-  <name>Self Service BI</name>
-  <category>
-    <name>Dashboards</name>
-    <parent>
-      <name>Apps</name>
-    </parent>
-  </category>
-  <description>
-          <![CDATA[
-<p>Pentaho Self Service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart, High Chart, Fusion Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc.</p>
-<br/>
-<p>Here User can create or use existing Saiku Analysis view or CDA data sources to access the data.</p><br />
-<p><a target='NO_BLANK' href='https://github.com/SPECUSA/SelfServiceBI/raw/master/User_Guide-Self_Service_BI.pdf/'>Click here</a> to download User Guide for this plugin.</p><br/>
-      ]]>
-  </description>
-  <author>SPEC-INDIA</author>
-  <author_url>http://www.spec-india.com/</author_url>
-  <dependencies>CDA, CCC, Saiku Analytics, Pentaho 8.0/8.1</dependencies>
-  <forum_url>https://github.com/SPECUSA/SelfServiceBI</forum_url>
-  <cases_url>https://github.com/SPECUSA/SelfServiceBI</cases_url>
-  <license_name>GNU General Public License</license_name>
-  <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
-  <support_level>PROFESSIONALY_SUPPORTED</support_level>
-  <versions>
-    <version>
-      <branch>STABLEP6</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p7.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>6.9</max_parent_version>
-      <min_parent_version>5.4</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP7</branch>
-        <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p7.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>7.0.99</max_parent_version>
-      <min_parent_version>7.0</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP7_1</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-       <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p7_1.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>7.1.99</max_parent_version>
-      <min_parent_version>7.1</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP8</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p8.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>8.0.99</max_parent_version>
-      <min_parent_version>8.0</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>STABLEP8_1</branch>
-      <version>2.1.3</version>
-      <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.3-p8_1.zip</package_url>
-      <description>Code sturucture changed and minor bug fixes</description>
-      <max_parent_version>8.0.99</max_parent_version>
-      <min_parent_version>8.0</min_parent_version>
-        <development_stage>
-        <lane>Community</lane>
-        <phase>4</phase>
-      </development_stage>
-    </version>
-  </versions>
-  <screenshots>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-1.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-2.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-3.png</screenshot>
-  </screenshots>
-</market_entry>
   <market_entry>
     <id>waqe</id>
     <type>Platform</type>
@@ -11125,7 +11094,7 @@ Capabilities:
       PDI 6.0+.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -11871,7 +11840,7 @@ Capabilities:
       This plugin contains the Apache2 Odoo Java API, and is based on the old OpenERP plugin from De Bortoli Wines Pty Limited (Australia).
       Note: you probably also want to copy this plugin to your Pentaho BA server (server/pentaho-server/pentaho-solutions/system/kettle/plugins).
     </description>
-    <documentation_url>http://wiki.pentaho.com/display/EAI</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI</documentation_url>
     <author>West IT Solutions</author>
     <author_url>https://www.west.nl/</author_url>
     <author_logo>https://www.west.nl/pentaho-marketplace/West-logo-small.png</author_logo>
@@ -13000,7 +12969,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </category>
     <description>This plugin is for Pentaho Data integration (ETL) a.k.a kettle. Loads as: OpenERPInput, OpenERPOutput, OpenERPDelete</description>
     <author>Pentaho</author>
-    <documentation_url>https://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>8.2</branch>
@@ -13023,7 +12992,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </license_text>
     <support_level>NOT_SUPPORTED</support_level>
   </market_entry>
-    <market_entry>
+  <market_entry>
   <id>read-excel-header</id>
   <type>Step</type>
   <name>Read Excel Header</name>
@@ -13048,8 +13017,8 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
  <versions>
     <version>
       <branch>Stable</branch>
-      <version>1.0.3</version>
-      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/v1.0.3/ReadExcelHeader-1.0.3.zip</package_url>
+      <version>1.2.4</version>
+      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/226725184/ReadExcelHeader.zip</package_url>
       <development_stage>
         <lane>Community</lane>
         <phase>1</phase>
@@ -13175,74 +13144,18 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <license>Free</license>
     <dependencies>mondrian</dependencies>
     <versions>
-      <version>
-        <branch>STABLE</branch>
-        <version>3.21</version>
-        <name>Stable 3.21</name>
-        <package_url>
-         https://sourceforge.net/projects/datafor-visualizer/files/V3.21/datafor.zip/download
-        </package_url>
-        <description>Release 3.21</description>
-        <min_parent_version>3.2</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
 	  <version>
-		<branch>
-			STABLE
-		</branch>
-		<version>
-			3.3
-		</version>
-		<name>
-			Stable 3.3
-		</name>
-		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/V3.3/datafor.zip/download
-		</package_url>
-		<description>
-			Release 3.3
-		</description>
-		<min_parent_version>
-			3.3
-		</min_parent_version>
-		<development_stage>
-			<lane>
-				Community
-			</lane>
-			<phase>
-				4
-			</phase>
-		</development_stage>
-	  </version>
-	  <version>
-		<branch>
-			STABLE
-		</branch>
-		<version>
-			4.00
-		</version>
-		<name>
-			Stable 4.00
-		</name>
+		<branch>STABLE</branch>
+		<version>4.00</version>
+		<name>Stable 4.00</name>
 		<package_url>
 			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/datafor.4.00.zip/download
 		</package_url>
-		<description>
-			Release 4.00
-		</description>
-		<min_parent_version>
-			4.00
-		</min_parent_version>
+		<description>Release 4.00</description>
+		<min_parent_version>4.00</min_parent_version>
 		<development_stage>
-			<lane>
-				Community
-			</lane>
-			<phase>
-				4
-			</phase>
+			<lane>Community</lane>
+			<phase>4</phase>
 		</development_stage>
 	  </version>
     </versions>
@@ -13253,6 +13166,78 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     </screenshots>
   </market_entry>
 
+  <market_entry>
+    <id>rocketchat-message-client</id>
+    <type>Step</type>
+    <name>Rocketchat Message Client</name>
+    <category>
+        <name>Enhancements</name>
+        <parent>
+            <name>PDI Plugins</name>
+        </parent>
+    </category>
 
+    <description>Send messages to a rocketchat server. Target channel, sender alias and sender icon are customizable.</description>
+    <documentation_url>https://github.com/Talon24/kettle-rocketchat</documentation_url>
+    <author>Talon24</author>
+    <forum_url>https://github.com/Talon24/kettle-rocketchat</forum_url>
+    <cases_url>https://github.com/Talon24/kettle-rocketchat/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/Talon24/kettle-rocketchat/issues</support_url>
+    <versions>
+    <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <package_url>https://github.com/Talon24/kettle-rocketchat/releases/download/1.0.0/rocketchat-plugin.zip</package_url>
+        <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+        </development_stage>
+    </version>
+    </versions>
+  </market_entry>
+
+<market_entry>
+    <id>GetIpPlugin</id>
+    <type>Step</type>
+    <name>PDI Get IP Plugin</name>
+    <category>
+      <name>Utility</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin allows you to obtain the Public IP of the server where kettle is running</description>
+    <author>Reynaldo Claros</author>
+    <author_url>https://reynaldoclaros.com</author_url>
+    <author_logo>https://avatars.githubusercontent.com/u/17392358?v=4</author_logo>
+    <documentation_url>https://github.com/rclaros/pdi-get-ip-plugin/blob/main/README.md</documentation_url>
+    <cases_url>https://github.com/rclaros/pdi-get-ip-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <img>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</img>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <name>1.0</name>
+        <package_url>https://github.com/rclaros/pdi-get-ip-plugin/raw/main/releases/pdi-get-ip-plugin-1.0.0.zip</package_url>
+        <samples_url>https://github.com/rclaros/pdi-get-ip-plugin</samples_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+     <screenshot>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</screenshot>
+    </screenshots>
+  </market_entry>
 
 </market>
